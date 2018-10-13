@@ -11,6 +11,8 @@ iostream
 -
 fstream
 -
+map
+-
 vector
 -
 sstream
@@ -20,10 +22,24 @@ string
 algorithm
 -
 
+/home/darya/CLionProjects/OpenMPTest/parallel_for.cpp
+ctime
+-
+map
+-
+omp.h
+-
+chrono
+-
+helpers.h
+/home/darya/CLionProjects/OpenMPTest/helpers.h
+
 /home/darya/CLionProjects/OpenMPTest/sequence.cpp
 ctime
 -
 list
+-
+chrono
 -
 helpers.h
 /home/darya/CLionProjects/OpenMPTest/helpers.h

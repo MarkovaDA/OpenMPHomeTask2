@@ -1,5 +1,6 @@
 #include <ctime>
 #include <list>
+#include <chrono>
 
 #include "helpers.h"
 
@@ -10,15 +11,17 @@ int main() {
 
     srand(time(0));
 
+    auto start = std::chrono::system_clock::now();
+
     vector<string> lines = split(file_content, '\n');
 
     vector<string> processed;
     vector<string> words;
 
-    list<pair<string, int>> occurrences;
+    map<string, int> occurrences;
 
     string current_word;
-    int current_count;
+
 
     for(int i = 0; i < lines.size(); ++i) {
         remove_punc(lines[i]);
@@ -29,30 +32,26 @@ int main() {
 
             to_lower(current_word);
 
-            if (find(processed.begin(), processed.end(), current_word) != processed.end()) {
-                continue;
-            }
-
-            current_count = count(file_content, current_word);
-
-            occurrences.push_back(pair<string, int>(current_word, current_count));
-
-            processed.push_back(current_word);
+            increase_word_count(occurrences, current_word);
         }
     }
 
-    cout << "SEQUENCE RUNTIME = " << clock() / 1000.0 << endl;
+    auto end = std::chrono::system_clock::now();
+    std::chrono::duration<double> diff = end-start;
 
-    list<pair<string, int>>::iterator it;
+    cout << "SEQUENCE RUNTIME = " << diff.count() * 1000 << "ms" << endl;
+
+
+    map<string, int>::iterator it;
 
     for (it = occurrences.begin(); it != occurrences.end(); it++) {
-        std::cout << it->first  //key
-                  << " : "
-                  << it->second   //value
-                  << std::endl;
+        cout << it->first   //current_word
+             << " : "
+             << it->second
+             << endl;
     }
 
-    cout << "SIZE: " << processed.size();
+    cout << "SIZE: " << occurrences.size();
 
     return 0;
 }
