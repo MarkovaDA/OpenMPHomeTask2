@@ -93,6 +93,9 @@
 		<Unit filename="/home/darya/CLionProjects/OpenMPTest/parallel_for.cpp">
 			<Option target="OpenMPTest"/>
 		</Unit>
+		<Unit filename="/home/darya/CLionProjects/OpenMPTest/parallel_sections.cpp">
+			<Option target="OpenMPTest"/>
+		</Unit>
 		<Unit filename="/home/darya/CLionProjects/OpenMPTest/sequence.cpp">
 			<Option target="OpenMPTest"/>
 		</Unit>

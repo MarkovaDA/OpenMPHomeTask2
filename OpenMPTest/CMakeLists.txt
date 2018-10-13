@@ -18,4 +18,4 @@ ELSE()
     message("Missed OpenMP!")
 ENDIF()
 
-add_executable(OpenMPTest parallel_for.cpp sequence.cpp helpers.cpp helpers.h)
+add_executable(OpenMPTest parallel_for.cpp sequence.cpp helpers.cpp helpers.h parallel_sections.cpp)

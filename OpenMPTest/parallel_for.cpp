@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int _main() {
+int main() {
     string file_content = read_file();
     srand(time(0));
 
@@ -34,10 +34,11 @@ int _main() {
                 current_word = words[j];
                 to_lower(current_word);
 
-                #pragma omp critical
+                increase_word_count(occurrences, current_word);
+                /*#pragma omp critical
                 {
                     increase_word_count(occurrences, current_word);
-                };
+                };*/
             }
         }
     }

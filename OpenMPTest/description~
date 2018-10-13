@@ -12,5 +12,5 @@ parallel: 535mc
 
 
 ~100000
-sequence:
-parallel: 
+sequence: 3.2mc
+parallel: 2.5mc

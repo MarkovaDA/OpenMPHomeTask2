@@ -177,6 +177,33 @@ parallel_for.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_for.cpp.s
 .PHONY : parallel_for.cpp.s
 
+parallel_sections.o: parallel_sections.cpp.o
+
+.PHONY : parallel_sections.o
+
+# target to build an object file
+parallel_sections.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o
+.PHONY : parallel_sections.cpp.o
+
+parallel_sections.i: parallel_sections.cpp.i
+
+.PHONY : parallel_sections.i
+
+# target to preprocess a source file
+parallel_sections.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.i
+.PHONY : parallel_sections.cpp.i
+
+parallel_sections.s: parallel_sections.cpp.s
+
+.PHONY : parallel_sections.s
+
+# target to generate assembly for a file
+parallel_sections.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.s
+.PHONY : parallel_sections.cpp.s
+
 sequence.o: sequence.cpp.o
 
 .PHONY : sequence.o
@@ -219,6 +246,9 @@ help:
 	@echo "... parallel_for.o"
 	@echo "... parallel_for.i"
 	@echo "... parallel_for.s"
+	@echo "... parallel_sections.o"
+	@echo "... parallel_sections.i"
+	@echo "... parallel_sections.s"
 	@echo "... sequence.o"
 	@echo "... sequence.i"
 	@echo "... sequence.s"

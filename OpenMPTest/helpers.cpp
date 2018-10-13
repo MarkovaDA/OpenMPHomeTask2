@@ -5,11 +5,12 @@
 #include <sstream>
 #include <string>
 #include <algorithm>
+#include "omp.h"
 
 using namespace std;
 
 string read_file() {
-    ifstream source_file("source200.txt");
+    ifstream source_file("source100000.txt");
     string content((istreambuf_iterator<char>(source_file)), std::istreambuf_iterator<char>());
     return content;
 }
@@ -41,6 +42,7 @@ void to_lower(string &str) {
 void increase_word_count(map<string, int> &occurrences, string word) {
     map<string, int>::const_iterator found = occurrences.find(word);
 
+    #pragma omp critical
     if (found == occurrences.end()) {
         occurrences.insert(pair<string, int>(word, 1));
     } else {

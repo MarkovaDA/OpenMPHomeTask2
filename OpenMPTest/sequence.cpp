@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int main() {
+int _main() {
     string file_content = read_file();
 
     srand(time(0));
@@ -21,7 +21,6 @@ int main() {
     map<string, int> occurrences;
 
     string current_word;
-
 
     for(int i = 0; i < lines.size(); ++i) {
         remove_punc(lines[i]);

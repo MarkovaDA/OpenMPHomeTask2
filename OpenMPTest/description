@@ -1,16 +1,16 @@
 ~100 строки кода
-sequence: 10mc
-parallel_for: 30mc
+sequence: 12mc
+parallel_for: 15mc
 
 ~1000 строк кода
 sequence: 86mc
-parallel: 80mc
+parallel: 70mc
 
 ~10000
-sequence: 652mc
-parallel: 535mc
+sequence: 672mc
+parallel: 326mc
 
 
 ~100000
-sequence: 3.2mc
-parallel: 2.5mc
+sequence: 3.3mc
+parallel: 1.6mc
