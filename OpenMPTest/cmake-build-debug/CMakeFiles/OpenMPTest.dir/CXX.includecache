@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/darya/CLionProjects/OpenMPTest/helpers.h
+iostream
+-
+fstream
+-
+vector
+-
+sstream
+-
+string
+-
+algorithm
+-
+
+/home/darya/CLionProjects/OpenMPTest/sequence.cpp
+ctime
+-
+list
+-
+helpers.h
+/home/darya/CLionProjects/OpenMPTest/helpers.h
+
