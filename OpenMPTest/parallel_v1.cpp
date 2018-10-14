@@ -24,7 +24,7 @@ int main() {
     string line, current_word;
     bool status;
 
-    ifstream source_file("source100000.txt");
+    ifstream source_file("source200.txt");
 
     auto start = std::chrono::system_clock::now();
     //потоки совместно читают файл, и каждый обрабатывает
@@ -68,7 +68,7 @@ int main() {
 
     cout << occurrences.size() << endl;
 
-    cout << "PARALLEL RUNTIME = " << diff.count() * 1000 << "ms" << endl;
+    cout << "PARALLEL V1 RUNTIME = " << diff.count() * 1000 << "ms" << endl;
 
     return 0;
 }

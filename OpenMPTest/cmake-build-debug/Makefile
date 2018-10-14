@@ -150,59 +150,32 @@ helpers.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/helpers.cpp.s
 .PHONY : helpers.cpp.s
 
-parallel_v1.o: parallel_v1.cpp.o
+parallel_v2.o: parallel_v2.cpp.o
 
-.PHONY : parallel_v1.o
-
-# target to build an object file
-parallel_v1.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o
-.PHONY : parallel_v1.cpp.o
-
-parallel_v1.i: parallel_v1.cpp.i
-
-.PHONY : parallel_v1.i
-
-# target to preprocess a source file
-parallel_v1.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.i
-.PHONY : parallel_v1.cpp.i
-
-parallel_v1.s: parallel_v1.cpp.s
-
-.PHONY : parallel_v1.s
-
-# target to generate assembly for a file
-parallel_v1.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.s
-.PHONY : parallel_v1.cpp.s
-
-sequence.o: sequence.cpp.o
-
-.PHONY : sequence.o
+.PHONY : parallel_v2.o
 
 # target to build an object file
-sequence.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/sequence.cpp.o
-.PHONY : sequence.cpp.o
+parallel_v2.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o
+.PHONY : parallel_v2.cpp.o
 
-sequence.i: sequence.cpp.i
+parallel_v2.i: parallel_v2.cpp.i
 
-.PHONY : sequence.i
+.PHONY : parallel_v2.i
 
 # target to preprocess a source file
-sequence.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/sequence.cpp.i
-.PHONY : sequence.cpp.i
+parallel_v2.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.i
+.PHONY : parallel_v2.cpp.i
 
-sequence.s: sequence.cpp.s
+parallel_v2.s: parallel_v2.cpp.s
 
-.PHONY : sequence.s
+.PHONY : parallel_v2.s
 
 # target to generate assembly for a file
-sequence.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/sequence.cpp.s
-.PHONY : sequence.cpp.s
+parallel_v2.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.s
+.PHONY : parallel_v2.cpp.s
 
 # Help Target
 help:
@@ -216,12 +189,9 @@ help:
 	@echo "... helpers.o"
 	@echo "... helpers.i"
 	@echo "... helpers.s"
-	@echo "... parallel_v1.o"
-	@echo "... parallel_v1.i"
-	@echo "... parallel_v1.s"
-	@echo "... sequence.o"
-	@echo "... sequence.i"
-	@echo "... sequence.s"
+	@echo "... parallel_v2.o"
+	@echo "... parallel_v2.i"
+	@echo "... parallel_v2.s"
 .PHONY : help
 
 

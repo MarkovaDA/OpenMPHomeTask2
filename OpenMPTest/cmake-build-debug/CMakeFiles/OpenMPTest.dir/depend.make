@@ -3,9 +3,6 @@
 
 CMakeFiles/OpenMPTest.dir/helpers.cpp.o: ../helpers.cpp
 
-CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o: ../helpers.h
-CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o: ../parallel_v1.cpp
-
-CMakeFiles/OpenMPTest.dir/sequence.cpp.o: ../helpers.h
-CMakeFiles/OpenMPTest.dir/sequence.cpp.o: ../sequence.cpp
+CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o: ../helpers.h
+CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o: ../parallel_v2.cpp
 

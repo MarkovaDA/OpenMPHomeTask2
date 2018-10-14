@@ -18,13 +18,13 @@ using namespace std;
  * ~10 000 - 722mc
  * ~100 000 - 3.3c
  * */
-int _main() {
+int main() {
     vector<string> words;
     map<string, int> occurrences; //map для подсчета числа вхождений для заданного слова
 
     string line, current_word;
 
-    ifstream source_file("source100000.txt");
+    ifstream source_file("source200.txt");
 
     auto start = std::chrono::system_clock::now();
 
