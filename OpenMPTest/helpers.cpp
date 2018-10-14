@@ -42,7 +42,6 @@ void to_lower(string &str) {
 void increase_word_count(map<string, int> &occurrences, string word) {
     map<string, int>::const_iterator found = occurrences.find(word);
 
-    #pragma omp critical
     if (found == occurrences.end()) {
         occurrences.insert(pair<string, int>(word, 1));
     } else {
