@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpenMPTest.dir/parallel_for.cpp.o"
   "CMakeFiles/OpenMPTest.dir/sequence.cpp.o"
+  "CMakeFiles/OpenMPTest.dir/parallel_handle.cpp.o"
   "CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
-  "CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o"
   "OpenMPTest.pdb"
   "OpenMPTest"
 )

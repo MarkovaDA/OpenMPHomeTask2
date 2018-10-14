@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main() {
+int _main() {
     string file_content = read_file();
     srand(time(0));
 

@@ -9,12 +9,9 @@ using namespace std;
 int _main() {
     string file_content = read_file();
 
-    srand(time(0));
-
     auto start = std::chrono::system_clock::now();
 
     vector<string> lines = split(file_content, '\n');
-
     vector<string> processed;
     vector<string> words;
 

@@ -150,59 +150,32 @@ helpers.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/helpers.cpp.s
 .PHONY : helpers.cpp.s
 
-parallel_for.o: parallel_for.cpp.o
+parallel_handle.o: parallel_handle.cpp.o
 
-.PHONY : parallel_for.o
-
-# target to build an object file
-parallel_for.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_for.cpp.o
-.PHONY : parallel_for.cpp.o
-
-parallel_for.i: parallel_for.cpp.i
-
-.PHONY : parallel_for.i
-
-# target to preprocess a source file
-parallel_for.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_for.cpp.i
-.PHONY : parallel_for.cpp.i
-
-parallel_for.s: parallel_for.cpp.s
-
-.PHONY : parallel_for.s
-
-# target to generate assembly for a file
-parallel_for.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_for.cpp.s
-.PHONY : parallel_for.cpp.s
-
-parallel_sections.o: parallel_sections.cpp.o
-
-.PHONY : parallel_sections.o
+.PHONY : parallel_handle.o
 
 # target to build an object file
-parallel_sections.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o
-.PHONY : parallel_sections.cpp.o
+parallel_handle.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_handle.cpp.o
+.PHONY : parallel_handle.cpp.o
 
-parallel_sections.i: parallel_sections.cpp.i
+parallel_handle.i: parallel_handle.cpp.i
 
-.PHONY : parallel_sections.i
+.PHONY : parallel_handle.i
 
 # target to preprocess a source file
-parallel_sections.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.i
-.PHONY : parallel_sections.cpp.i
+parallel_handle.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_handle.cpp.i
+.PHONY : parallel_handle.cpp.i
 
-parallel_sections.s: parallel_sections.cpp.s
+parallel_handle.s: parallel_handle.cpp.s
 
-.PHONY : parallel_sections.s
+.PHONY : parallel_handle.s
 
 # target to generate assembly for a file
-parallel_sections.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.s
-.PHONY : parallel_sections.cpp.s
+parallel_handle.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenMPTest.dir/build.make CMakeFiles/OpenMPTest.dir/parallel_handle.cpp.s
+.PHONY : parallel_handle.cpp.s
 
 sequence.o: sequence.cpp.o
 
@@ -243,12 +216,9 @@ help:
 	@echo "... helpers.o"
 	@echo "... helpers.i"
 	@echo "... helpers.s"
-	@echo "... parallel_for.o"
-	@echo "... parallel_for.i"
-	@echo "... parallel_for.s"
-	@echo "... parallel_sections.o"
-	@echo "... parallel_sections.i"
-	@echo "... parallel_sections.s"
+	@echo "... parallel_handle.o"
+	@echo "... parallel_handle.i"
+	@echo "... parallel_handle.s"
 	@echo "... sequence.o"
 	@echo "... sequence.i"
 	@echo "... sequence.s"
