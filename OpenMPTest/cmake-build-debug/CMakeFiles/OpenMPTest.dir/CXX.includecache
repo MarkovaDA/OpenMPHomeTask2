@@ -6,23 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/darya/CLionProjects/OpenMPTest/helpers.h
-iostream
--
-fstream
--
-map
--
-vector
--
-sstream
--
-string
--
-algorithm
--
-
-/home/darya/CLionProjects/OpenMPTest/parallel_handle.cpp
+/home/darya/CLionProjects/OpenMPTest/parallel_sections.cpp
 ctime
 -
 map
@@ -31,16 +15,10 @@ omp.h
 -
 chrono
 -
-helpers.h
-/home/darya/CLionProjects/OpenMPTest/helpers.h
-
-/home/darya/CLionProjects/OpenMPTest/sequence.cpp
-ctime
+fstream
 -
-list
+iostream
 -
-chrono
+vector
 -
-helpers.h
-/home/darya/CLionProjects/OpenMPTest/helpers.h
 

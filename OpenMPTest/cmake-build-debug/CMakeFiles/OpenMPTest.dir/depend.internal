@@ -3,9 +3,5 @@
 
 CMakeFiles/OpenMPTest.dir/helpers.cpp.o
  /home/darya/CLionProjects/OpenMPTest/helpers.cpp
-CMakeFiles/OpenMPTest.dir/parallel_handle.cpp.o
- /home/darya/CLionProjects/OpenMPTest/helpers.h
- /home/darya/CLionProjects/OpenMPTest/parallel_handle.cpp
-CMakeFiles/OpenMPTest.dir/sequence.cpp.o
- /home/darya/CLionProjects/OpenMPTest/helpers.h
- /home/darya/CLionProjects/OpenMPTest/sequence.cpp
+CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o
+ /home/darya/CLionProjects/OpenMPTest/parallel_sections.cpp

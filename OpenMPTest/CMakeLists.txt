@@ -19,4 +19,4 @@ ELSE()
 ENDIF()
 
 #add_executable(OpenMPTest parallel_for.cpp sequence.cpp helpers.cpp helpers.h parallel_sections.cpp parallel_handle.cpp)
-add_executable(OpenMPTest  sequence.cpp parallel_handle.cpp helpers.cpp helpers.h)
+add_executable(OpenMPTest  parallel_sections.cpp helpers.cpp helpers.h)
