@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/darya/CLionProjects/OpenMPTest/parallel_sections.cpp
+/home/darya/CLionProjects/OpenMPTest/helpers.h
+iostream
+-
+fstream
+-
+map
+-
+vector
+-
+sstream
+-
+string
+-
+algorithm
+-
+
+/home/darya/CLionProjects/OpenMPTest/parallel_v1.cpp
 ctime
 -
 map
@@ -21,4 +37,24 @@ iostream
 -
 vector
 -
+helpers.h
+/home/darya/CLionProjects/OpenMPTest/helpers.h
+
+/home/darya/CLionProjects/OpenMPTest/sequence.cpp
+ctime
+-
+map
+-
+omp.h
+-
+chrono
+-
+fstream
+-
+iostream
+-
+vector
+-
+helpers.h
+/home/darya/CLionProjects/OpenMPTest/helpers.h
 

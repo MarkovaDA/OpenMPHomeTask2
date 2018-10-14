@@ -18,7 +18,7 @@ int main() {
     string line, current_word;
     bool status;
 
-    ifstream source_file("source2000.txt");
+    ifstream source_file("source100000.txt");
 
     auto start = std::chrono::system_clock::now();
     //потоки совместно читают файл, и каждый обрабатывает

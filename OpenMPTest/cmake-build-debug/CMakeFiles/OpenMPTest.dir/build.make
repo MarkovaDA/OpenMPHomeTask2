@@ -57,22 +57,35 @@ include CMakeFiles/OpenMPTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenMPTest.dir/flags.make
 
-CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o: CMakeFiles/OpenMPTest.dir/flags.make
-CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o: ../parallel_sections.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o -c /home/darya/CLionProjects/OpenMPTest/parallel_sections.cpp
+CMakeFiles/OpenMPTest.dir/sequence.cpp.o: CMakeFiles/OpenMPTest.dir/flags.make
+CMakeFiles/OpenMPTest.dir/sequence.cpp.o: ../sequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenMPTest.dir/sequence.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPTest.dir/sequence.cpp.o -c /home/darya/CLionProjects/OpenMPTest/sequence.cpp
 
-CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darya/CLionProjects/OpenMPTest/parallel_sections.cpp > CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.i
+CMakeFiles/OpenMPTest.dir/sequence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPTest.dir/sequence.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darya/CLionProjects/OpenMPTest/sequence.cpp > CMakeFiles/OpenMPTest.dir/sequence.cpp.i
 
-CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darya/CLionProjects/OpenMPTest/parallel_sections.cpp -o CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.s
+CMakeFiles/OpenMPTest.dir/sequence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPTest.dir/sequence.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darya/CLionProjects/OpenMPTest/sequence.cpp -o CMakeFiles/OpenMPTest.dir/sequence.cpp.s
+
+CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o: CMakeFiles/OpenMPTest.dir/flags.make
+CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o: ../parallel_v1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o -c /home/darya/CLionProjects/OpenMPTest/parallel_v1.cpp
+
+CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darya/CLionProjects/OpenMPTest/parallel_v1.cpp > CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.i
+
+CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darya/CLionProjects/OpenMPTest/parallel_v1.cpp -o CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.s
 
 CMakeFiles/OpenMPTest.dir/helpers.cpp.o: CMakeFiles/OpenMPTest.dir/flags.make
 CMakeFiles/OpenMPTest.dir/helpers.cpp.o: ../helpers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPTest.dir/helpers.cpp.o -c /home/darya/CLionProjects/OpenMPTest/helpers.cpp
 
 CMakeFiles/OpenMPTest.dir/helpers.cpp.i: cmake_force
@@ -85,17 +98,19 @@ CMakeFiles/OpenMPTest.dir/helpers.cpp.s: cmake_force
 
 # Object files for target OpenMPTest
 OpenMPTest_OBJECTS = \
-"CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o" \
+"CMakeFiles/OpenMPTest.dir/sequence.cpp.o" \
+"CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o" \
 "CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
 
 # External object files for target OpenMPTest
 OpenMPTest_EXTERNAL_OBJECTS =
 
-OpenMPTest: CMakeFiles/OpenMPTest.dir/parallel_sections.cpp.o
+OpenMPTest: CMakeFiles/OpenMPTest.dir/sequence.cpp.o
+OpenMPTest: CMakeFiles/OpenMPTest.dir/parallel_v1.cpp.o
 OpenMPTest: CMakeFiles/OpenMPTest.dir/helpers.cpp.o
 OpenMPTest: CMakeFiles/OpenMPTest.dir/build.make
 OpenMPTest: CMakeFiles/OpenMPTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenMPTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OpenMPTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenMPTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
