@@ -10,7 +10,13 @@
 #include "helpers.h"
 
 using namespace std;
-
+/*
+ * Время запуска для данных различных размерностей
+ * ~100 - 10мс
+ * ~1000 - 77mc
+ * ~10 000 - 547mc
+ * ~100 000 - 2.6c
+ * */
 int main() {
     vector<string> words;
     map<string, int> occurrences; //map для подсчета числа вхождений для заданного слова
