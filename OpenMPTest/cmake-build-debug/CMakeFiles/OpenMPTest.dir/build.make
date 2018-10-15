@@ -57,22 +57,9 @@ include CMakeFiles/OpenMPTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenMPTest.dir/flags.make
 
-CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o: CMakeFiles/OpenMPTest.dir/flags.make
-CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o: ../parallel_v2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o -c /home/darya/CLionProjects/OpenMPTest/parallel_v2.cpp
-
-CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darya/CLionProjects/OpenMPTest/parallel_v2.cpp > CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.i
-
-CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darya/CLionProjects/OpenMPTest/parallel_v2.cpp -o CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.s
-
 CMakeFiles/OpenMPTest.dir/helpers.cpp.o: CMakeFiles/OpenMPTest.dir/flags.make
 CMakeFiles/OpenMPTest.dir/helpers.cpp.o: ../helpers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPTest.dir/helpers.cpp.o -c /home/darya/CLionProjects/OpenMPTest/helpers.cpp
 
 CMakeFiles/OpenMPTest.dir/helpers.cpp.i: cmake_force
@@ -83,16 +70,29 @@ CMakeFiles/OpenMPTest.dir/helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPTest.dir/helpers.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darya/CLionProjects/OpenMPTest/helpers.cpp -o CMakeFiles/OpenMPTest.dir/helpers.cpp.s
 
+CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.o: CMakeFiles/OpenMPTest.dir/flags.make
+CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.o: ../parallel_v3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.o -c /home/darya/CLionProjects/OpenMPTest/parallel_v3.cpp
+
+CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darya/CLionProjects/OpenMPTest/parallel_v3.cpp > CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.i
+
+CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darya/CLionProjects/OpenMPTest/parallel_v3.cpp -o CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.s
+
 # Object files for target OpenMPTest
 OpenMPTest_OBJECTS = \
-"CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o" \
-"CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
+"CMakeFiles/OpenMPTest.dir/helpers.cpp.o" \
+"CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.o"
 
 # External object files for target OpenMPTest
 OpenMPTest_EXTERNAL_OBJECTS =
 
-OpenMPTest: CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o
 OpenMPTest: CMakeFiles/OpenMPTest.dir/helpers.cpp.o
+OpenMPTest: CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.o
 OpenMPTest: CMakeFiles/OpenMPTest.dir/build.make
 OpenMPTest: CMakeFiles/OpenMPTest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenMPTest"

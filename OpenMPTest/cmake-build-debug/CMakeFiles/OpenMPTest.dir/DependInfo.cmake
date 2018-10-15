@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/darya/CLionProjects/OpenMPTest/helpers.cpp" "/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles/OpenMPTest.dir/helpers.cpp.o"
-  "/home/darya/CLionProjects/OpenMPTest/parallel_v2.cpp" "/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles/OpenMPTest.dir/parallel_v2.cpp.o"
+  "/home/darya/CLionProjects/OpenMPTest/parallel_v3.cpp" "/home/darya/CLionProjects/OpenMPTest/cmake-build-debug/CMakeFiles/OpenMPTest.dir/parallel_v3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -90,7 +90,7 @@
 		<Unit filename="/home/darya/CLionProjects/OpenMPTest/helpers.h">
 			<Option target="OpenMPTest"/>
 		</Unit>
-		<Unit filename="/home/darya/CLionProjects/OpenMPTest/parallel_v2.cpp">
+		<Unit filename="/home/darya/CLionProjects/OpenMPTest/parallel_v3.cpp">
 			<Option target="OpenMPTest"/>
 		</Unit>
 		<Unit filename="/home/darya/CLionProjects/OpenMPTest/CMakeLists.txt">
